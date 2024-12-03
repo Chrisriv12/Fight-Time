@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #243788;
+    padding: 1rem;
+    display: flex;
+    position: fixed; /* Fix the navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure it spans the full width */
+    z-index: 1000; /* Ensure it stays on top of other content */
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    gap: 1rem;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .nav-item {
+    display: inline;
+    margin-right: 10px;
+    padding-right: 20px;
+    color: white;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  
