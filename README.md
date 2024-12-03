@@ -22,7 +22,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/fighter-training-scheduler.git  
+git clone https://github.com/Chrisriv12/Fight-Time.git
 cd Fight-Time
 Install dependencies:
 
